@@ -1,28 +1,41 @@
 body {
   font-style: normal;
-  font-family: "Roboto ,sans serif ";
-  color: #212121;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color:rgba(33, 33, 33, 1);
   letter-spacing: 0.03em;
-  
 }
-li {
-  list-style: none;
+.ul{
+list-style: none;
+}
+ 
+.nav-bar{
+
+background: rgba(255, 255, 255, 1);
+
 }
 
 .site-nav {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 1);
+
+ 
+
 }
 
 .nav {
-  color: #212121;
+  color:rgba(33, 33, 33, 1);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 2;
   letter-spacing: 0.02em;
   text-decoration: none;
 
 
 }
+.nav:hover {
+  text-decoration: underline;
+ text-decoration-color:  rgba(33, 150, 243, 1);
+}
+
 .web {
   font-family: "Raleway";
   
@@ -30,11 +43,13 @@ li {
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
-  color: #2196f3;
+  color:  rgba(33, 150, 243, 1);
+  
 }
 
 .box {
-  background: #2f303a;
+  background: rgba(47, 48, 58, 1);
+
 }
 .box-title {
   font-weight: 900;
@@ -42,25 +57,32 @@ li {
   line-height: 60px;
   text-transform: uppercase;
 
-  color: #ffffff;
-}
-.button {
-  background: #2196f3;
+  color: rgba(255, 255, 255, 1);
 
-  font-family: 0ch "Roboto";
+}
+
+
+.button {
+ cursor: pointer;
+  background: rgba(33, 150, 243, 1);
+
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
 }
-
+.button{
+  text-decoration: underline;
+  text-decoration-color:rgba(33, 150, 243, 1); ;
+}
 .info-title {
   
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
 
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
+
 }
 
 .post-title {
@@ -73,7 +95,7 @@ li {
   line-height: 16px;
   text-transform: uppercase;
 
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
 }
 .post-text {
   
@@ -83,34 +105,40 @@ li {
 }
 
 .service {
-  background: #f5f4fa;
+  background: rgba(245, 244, 250, 1);
+
 }
 
 .service-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
 }
 .sevice-namber {
-  color: #212121;
+  color:  rgba(33, 33, 33, 1);
 }
+
 .service-text {
   
   font-size: 16px;
   line-height: 19px;
-  color: #757575;
+  color: rgba(117, 117, 117, 1);
+
 }
 
 .footer {
-  background: #2f303a;
+  background: rgba(47, 48, 58, 1);
+
 }
 
 .address {
-  color: #ffffff;
+  color:  rgba(255, 255, 255, 1);
 }
 .info {
   color: rgba(255, 255, 255, 0.6);
+
+
 }
   
 /* css portafolio */
@@ -122,7 +150,13 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
+}
 
+
+.link:hover{ 
+  
+  text-decoration:underline ;
+  text-decoration-color: rgba(33, 150, 243, 1);;
 }
 .study {
   font-family: "Raleway";
@@ -130,14 +164,15 @@ li {
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
-  color: #2196f3;
+  color:rgba(33, 150, 243, 1);
 }
 .current {
-  color: #2196f3;
+  color: rgba(33, 150, 243, 1);}
+.current:hover{
+  text-decoration: underline;
 }
 .buttonp {
   cursor: pointer;
-  font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
@@ -146,28 +181,38 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
+.buttonp:hover{
+text-decoration: underline;
+text-decoration-color: rgba(33, 150, 243, 1); 
+}
 .color 
 {
 cursor: pointer;
   background-color: #2196f3;
-
+}
+.color:hover{
+border-color:rgba(33, 150, 243, 1);  
 }
 
 .efect:hover{
-  
-  color:#212121;;
-  
+ border-color: rgba(33, 150, 243, 1);
+}
+ 
+.active :active{
+  background: rgba(245, 244, 250, 1);
 
 }
+
+
 .efect:active{
-  color: #212121;
-  ;
+  background: rgba(245, 244, 250, 1);
+
   
 }
-.efect:focus{
-color: #212121;;
-
+.efect:focus{ 
+  background: rgba(245, 244, 250, 1);
 }
+
 .section-cursor{
   cursor: pointer;
 }
