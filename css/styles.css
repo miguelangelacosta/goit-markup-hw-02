@@ -104,11 +104,6 @@ background: rgba(255, 255, 255, 1);
   background: rgba(245, 244, 250, 1);
 
 }
-.img:hover{
-  border: 1px solid;
-  border-color:  var(--color);
-}
-
 .service-title {
   font-weight: 700;
   font-size: 36px;
