@@ -1,11 +1,16 @@
+:root {
+  --brand-color:rgba(33, 33, 33, 1);
+  --line-height: 1.1;
+  --color:rgba(33, 150, 243, 1);
+}
 body {
   font-style: normal;
   font-family: 'Roboto', 'Arial', sans-serif;
-  color:rgba(33, 33, 33, 1);
-  letter-spacing: 0.03em;
+  color:var(--brand-color) 
+ 
 }
 .ul{
-list-style: none;
+list-style: none; 
 }
  
 .nav-bar{
@@ -22,10 +27,10 @@ background: rgba(255, 255, 255, 1);
 }
 
 .nav {
-  color:rgba(33, 33, 33, 1);
+  color:var(--brand-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 2;
+  line-height: var(--line-height);
   letter-spacing: 0.02em;
   text-decoration: none;
 
@@ -33,17 +38,16 @@ background: rgba(255, 255, 255, 1);
 }
 .nav:hover {
   text-decoration: underline;
- text-decoration-color:  rgba(33, 150, 243, 1);
+ text-decoration-color: var(--color);
 }
-
 .web {
   font-family: "Raleway";
   
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: var(--line-height);
   text-decoration: none;
-  color:  rgba(33, 150, 243, 1);
+  color:  var(--color);
   
 }
 
@@ -54,7 +58,7 @@ background: rgba(255, 255, 255, 1);
 .box-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height:var(--line-height);
   text-transform: uppercase;
 
   color: rgba(255, 255, 255, 1);
@@ -64,66 +68,63 @@ background: rgba(255, 255, 255, 1);
 
 .button {
  cursor: pointer;
-  background: rgba(33, 150, 243, 1);
-
+  background: var(--color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   color: rgba(255, 255, 255, 1);
-}
-.button{
-  text-decoration: underline;
-  text-decoration-color:rgba(33, 150, 243, 1); ;
 }
 .info-title {
   
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: var(--line-height);
 
-  color: rgba(33, 33, 33, 1);
+  color: var(--brand-color);
 
 }
-
 .post-title {
-  width: 270px;
-  height: 16px;
-
   
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: var(--line-height);
   text-transform: uppercase;
 
-  color: rgba(33, 33, 33, 1);
+  color: var(--brand-color);
 }
 .post-text {
   
   font-size: 14px;
-  line-height: 24px;
-  color: #757575;
+  line-height: 1.7;
+  color:  rgba(117, 117, 117, 1);
+
 }
 
 .service {
   background: rgba(245, 244, 250, 1);
 
 }
+.img:hover{
+  border: 1px solid;
+  border-color:  var(--color);
+}
 
 .service-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  color: rgba(33, 33, 33, 1);
+  line-height: var(--line-height);
+  color:var(--brand-color) ;
 }
 .sevice-namber {
-  color:  rgba(33, 33, 33, 1);
+  color: var(--brand-color);
 }
 
 .service-text {
   
   font-size: 16px;
-  line-height: 19px;
-  color: rgba(117, 117, 117, 1);
+  line-height:var(--line-height);
+  color:  rgba(117, 117, 117, 1);
+
 
 }
 
@@ -143,31 +144,34 @@ background: rgba(255, 255, 255, 1);
   
 /* css portafolio */
 
-.link {
+.link  {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: var(--line-height);
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  
+}
+.list{
+  list-style: none;
 }
 
 
 .link:hover{ 
   
   text-decoration:underline ;
-  text-decoration-color: rgba(33, 150, 243, 1);;
-}
+  text-decoration-color: var(--color);}
+
 .study {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: var(--line-height);
   text-decoration: none;
-  color:rgba(33, 150, 243, 1);
+  color:var(--color);
 }
 .current {
-  color: rgba(33, 150, 243, 1);}
+  color: var(--color)}
 .current:hover{
   text-decoration: underline;
 }
@@ -175,27 +179,29 @@ background: rgba(255, 255, 255, 1);
   cursor: pointer;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--brand-color);
 
 }
+
 .buttonp:hover{
 text-decoration: underline;
-text-decoration-color: rgba(33, 150, 243, 1); 
+text-decoration-color: var(--color); 
 }
 .color 
 {
+ 
 cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--color);
 }
 .color:hover{
-border-color:rgba(33, 150, 243, 1);  
+border-color:var(--color);  
 }
 
 .efect:hover{
- border-color: rgba(33, 150, 243, 1);
+ border-color: var(--color);
 }
  
 .active :active{
@@ -205,7 +211,7 @@ border-color:rgba(33, 150, 243, 1);
 
 
 .efect:active{
-  background: rgba(245, 244, 250, 1);
+  background: rgb(120, 120, 121);
 
   
 }
@@ -213,21 +219,30 @@ border-color:rgba(33, 150, 243, 1);
   background: rgba(245, 244, 250, 1);
 }
 
-.section-cursor{
-  cursor: pointer;
+.image:hover{
+  border: 1px solid;
+border-color:  var(--color);
+}
+.title:hover{
+  text-decoration: underline;
+text-decoration-color:var(--color); 
+}
+.text:hover{
+  text-decoration: underline;
+text-decoration-color: var(--color); 
 }
 .section {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--brand-color);
   
 }
 .text {
   
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -238,9 +253,9 @@ border-color:rgba(33, 150, 243, 1);
   
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: var(--line-height);
   text-decoration: none;
-  color: #2196f3;
+  color: var(--color);
  }
  .footer-address {
   color: #ffffff;
