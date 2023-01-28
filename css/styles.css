@@ -67,7 +67,6 @@ background: rgba(255, 255, 255, 1);
 
 
 .button {
- cursor: pointer;
   background: var(--color);
   font-weight: 700;
   font-size: 16px;
@@ -171,7 +170,6 @@ background: rgba(255, 255, 255, 1);
   text-decoration: underline;
 }
 .buttonp {
-  cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -187,8 +185,6 @@ text-decoration-color: var(--color);
 }
 .color 
 {
- 
-cursor: pointer;
   background-color: var(--color);
 }
 .color:hover{
